@@ -1,0 +1,2 @@
+eleve = ['FIATTE ', 'Augustin ', True, [10 , 12 , 2006] , 'PCSI4 ',  0 ]
+print(f"L'élève {eleve[1]} {eleve[0]}, né{"e" if eleve[2] == True else ""} le {eleve[3][0]}/{eleve[3][1]}/{eleve[3][2]}, est scolarisé en {eleve[4]}.")
